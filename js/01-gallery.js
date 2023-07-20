@@ -28,6 +28,7 @@ const modal = basicLightbox.create(`
     src=""
     width="800"
     height="600"
+    alt="${galleryItems.description}"
   />
 `, {
   onShow: () => {
